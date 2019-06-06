@@ -8,11 +8,14 @@ Question 4 Make different copies of a >5MB file in a directory using only 5MB st
 Question 5 why 3 to 13 dates are missing from september 1752 calendar? 
 solution {Six and a half million Britons went to bed on September 2, 1752, and woke up on September 14.
 To get the calendar back in sync with astronomical events like the vernal equinox or the winter solstice, a number of days were dropped}
-Question 6 Create 100 folders and delete them in Windows .
+Question 6 Create 500 folders and delete them in Windows .
 solution { import os module and write python code 
 : python code 
 import os 
-mkdir nid{1..500} # 5oo folder will be created 
+for i in range(1,500):
+    os.mkdir('folder'+str(i))
+print('500 Folders Created')
+# 5oo folder will be created 
 }
 Question 7 Find the part of RAM where how much byte of data is actually stored or provided to a variable can be checked
  solution { it can be checked through system monitor in linux and task manager in windows }
