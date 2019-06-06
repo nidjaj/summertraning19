@@ -1,0 +1,58 @@
+
+Directories
+
+1.a DIRECTORY is a location on your hard disk
+also called a FOLDER
+2.Directories can contain FILES
+3.Directories can also contain other directories (called SUBDIRECTORIES)
+
+The Current Directory
+
+1. Inside the Terminal, you are always inside a directory
+2. It is very important not to get lost! You must try to remember which directory you are in.
+If you forget, you can use a special command called pwd
+
+Home Directory
+
+1. When you open the Terminal you are in your HOME DIRECTORY
+usually you don't want to store files directly in here
+Listing Directory Contents
+1.when you type ls ("list") it shows the contents of the current directory
+
+Making a directory
+
+1.when you type mkdir ("make dir") it creates a new SUBDIRECTORY inside the current directory
+code - mkdir file name (code)
+
+Changing directories
+
+1.cd ("change dir") moves you into a different directory
+For example, cd code would move you into a directory named code
+2.If you ever get lost, type cd all on its own and press the return key. 
+This will send you back to your home directory.
+
+Basic Command Line Glossary
+
+1.pwd ("print working dir") -- shows the name of the current directory
+2.ls ("list") -- shows the contents of the current directory
+3.mkdir ("make dir") -- creates a new SUBDIRECTORY inside the current directory
+4.cd ("change dir") -- move into a different directory
+5.touch whatever.txt -- creates an empty file named whatever.txt inside the current directory
+
+LAB: make a subdirectory and then enter it
+open Terminal
+
+1.make a new subdirectory using mkdir code
+2.change into that directory using cd code
+3.list its contents using ls (and note that it's empty)
+
+Files
+1. a file is a place on disk for storing stuff "stuff" here could be anything at all
+documents, pictures, sounds, applications...every file lives inside a directory
+
+Text Editor
+
+1.a text editor is a program that edits a text file
+2.a text editor is like a word processor but a text editor is not a word processor
+3.You probably have vim , gedit etc 
+
