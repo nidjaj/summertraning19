@@ -1,0 +1,25 @@
+Question 1. Connect RedHat with GUI?
+Solution 
+https://www.youtube.com/watch?v=6x_okhl_CF4
+Question 2. Write code in python to connect to SSH without putty?
+Solution 
+Question 3. Write a program that runs different command each after some delay?
+Solution
+Question 4. Make user in window using command line?
+Solution 
+Question 5. How to remove read and write permission from a file or directory for root or 
+admin user?
+Solution 
+Question 6. List how many people are in a group find that list?
+Solution
+https://www.cyberciti.biz/faq/linux-list-all-members-of-a-group/
+Question 7. How to add multiple users in a group at once.
+Solution 
+addmultiusersingroup.py
+
+
+
+
+
+
+
