@@ -12,6 +12,17 @@ solution
  2> inserts commands output in a file only if the command entered in incorrect else it displays the output and saves nothing in file 
 Question 4
 Study/Read about Vulture and Firefly?
+About vulture :
+Indeed, the binary file is a zip file that contains a directory.
+In the directory there is a binary called vulture. Consequently, you can cd into the directory and starts vulture from there
+by the command ./vulture.
+In short, I'll assume you run on ubuntu just open a terminal and type...
+$ cd Download
+$ tar -xvzf vulture_1.2.1-vulture_linux_amd64.tar.gz
+$ cd vulture_1.2.1-vulture_linux_amd64
+$ ./vulture
+Note - that it is important that you starts vulture from where the binary is because the html/css/js files to create the we
+interface are in the static directory next to it.
 Solution How to install firefly ?
 Install firefly from source using:
 pip install firefly-python              How to use?          Create a simple python function.
@@ -55,7 +66,7 @@ https://wiki.videolan.org/Documentation:Installing_VLC/
 Question 7
 Find various use-cases or tuple ?
 solution 
-Tuples are used to group together related data, such as a person’s name, their age, and their gender.
+Tuples are used to group together related data, such as a personâ€™s name, their age, and their gender.
 immutable objects can allow substantial optimization
 Tuples can potentially be used as keys
 Tuples can be used to store longitude and latitude coordinates 
