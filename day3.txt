@@ -1,0 +1,26 @@
+Question 1. What is google summer of code?
+Solution 
+Google Summer of Code (GSoC) is an international internship program organized by Google, where the students can contribute to an open source 
+organization for 12 weeks and get paid 5500$.
+Question 2. Application will not start with icons but it will start with terminal.
+Solution 
+Edit the app icon code and modify the address of the execution file.
+first you can go to /usr/bin/bashrc  alter the code by using alias(it is used to rename the  command )
+[alias firefox='firefoxs].
+Question 3. How to write hello world in a directory?
+Solution 
+Question 4. What is RAM and what is the function ?
+Solution 
+Random Access Memory, or RAM (pronounced as ramm), is the physical hardware inside a computer that temporarily stores 
+data, serving as the computer's "working" memory. Additional RAM allows a computer to work with more information at the
+same time, which usually has a considerable effect on total system performance.
+RAM are of two types - 1.SRAM (static random access memory ) 2. DRAM (dynamic random access memory)
+
+
+
+
+
+
+
+
+
