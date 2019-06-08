@@ -1,0 +1,63 @@
+Question 1
+Find the date and time of a command from history list as to when it was used?
+solution 
+Set a variable HISTTIMEFORMAT = "%d/%m/%y %T ", save in .bashrc for permanent.
+Question 2 
+Change/Update history manually at path(/home/adhoc/.bash_history) and show in terminal without logout/reboot? 
+solution 
+Update history and just close the terminal, on reopening terminal changed history will be seen 
+Question 3
+What does 2> mean? 
+solution
+ 2> inserts commands output in a file only if the command entered in incorrect else it displays the output and saves nothing in file 
+Question 4
+Study/Read about Vulture and Firefly?
+Solution How to install firefly ?
+Install firefly from source using:
+pip install firefly-python              How to use?          Create a simple python function.
+# fib.py
+def fib(n):
+	if n == 0 or n == 1:
+		return 1
+	else:
+		return fib(n-1) + fib(n-2) 
+And run it using firefly.
+$ firefly fib.fib
+http://127.0.0.1:8000/
+...
+That started the fib function as a service listening at http://127.0.0.1:8000/.
+
+Let us see how to use it with a client.
+
+>>> import firefly
+>>> client = firefly.Client("http://127.0.0.1:8000/")
+>>> client.fib(n=10)
+89
+The service can also be invoked by sending a POST request.
+
+$ curl -d '{"n": 10}' http://127.0.0.1:8000/fib
+89
+Documentation:
+http://firefly-python.readthedocs.io/
+
+Features Planned
+1.Auto reload
+2.Supporting other input and output content-types in addition to json. (for example, a function to resize an image)
+serverless deployment.
+Question 5
+Read/Explore OSI Model 6?
+solution  https://en.m.wikipedia.org/wiki/Presentation_layer 
+Question 6
+Install VLC player on windows using Python ?
+solution 1 method .filename.exe /L=1033 /S  This will install your software without opening any GUI or such
+https://wiki.videolan.org/Documentation:Installing_VLC/
+2method . use pywinauto module, run the code through cmd as administrator 
+Question 7
+Find various use-cases or tuple ?
+solution 
+Tuples are used to group together related data, such as a person’s name, their age, and their gender.
+immutable objects can allow substantial optimization
+Tuples can potentially be used as keys
+Tuples can be used to store longitude and latitude coordinates 
+for further reading - http://openbookproject.net/thinkcs/python/english3e/tuples.html
+ 
