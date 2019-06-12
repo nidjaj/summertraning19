@@ -7,6 +7,10 @@ Question 3. Write a program that runs different command each after some delay?
 Solution
 Question 4. Make user in window using command line?
 Solution 
+step 1 open the 'command prompt'
+step 2 click run as a administrator 
+step 3 net user username password /add.
+
 Question 5. How to remove read and write permission from a file or directory for root or 
 admin user?
 Solution 
